@@ -5,7 +5,7 @@ import UserCard from './components/UserCard';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <ParentComponent />
       <UserCard name="Guru" age={28} occupation="Engineer" />
     </div>
